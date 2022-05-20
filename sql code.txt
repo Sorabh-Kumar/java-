@@ -1,0 +1,31 @@
+create table student
+(
+SID int,
+sNAME varchar2(10),
+GPA number(2,1),
+sizeHS int,
+DoB date
+);
+
+desc student
+insert into student values(123,'Amy',3.9,1000,'26-nov-1996');
+insert into student values(124,'lalit',4.0,1000,'26-Dec-2002');
+insert into student values(125,'Rachit',4.0,1000,'26-feb-2002');
+select * from student;
+select sNAME, doB from student;
+select sNAME from student where GPA>3.7;
+select sNAME from student where doB>'31-Dec-1996';
+select sNAME from student where GPA>=2.9 and GPA<=3.9;
+select sNAME from student where doB>'31-Dec-1996' order by doB ;
+
+create table Apply
+(
+SID int,
+cNAME varchar2(10),
+major varchar2(20),
+decision char(1)
+);
+desc student
+insert into Apply values(154,'stanford', 'cs','Y');
+insert into Apply values(156,'MIT', 'ec','Y');
+select * from Apply;

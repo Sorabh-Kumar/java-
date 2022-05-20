@@ -1,0 +1,26 @@
+
+			String
+-----------------------------------------------------------------------
+
+10 int 
+'M' char
+'F'
+
+5.6   float
+419/5 gla mathura 281406---------string
+
+c/c++ 
+character type array that is callled string
+
+java 
+string -- predefined class in java 
+method:
+	-to upper case()
+	-to lower case()
+	-replace()
+	-length()
+	-from()
+	-charAt()
+	-indexof()
+	-
+	-
